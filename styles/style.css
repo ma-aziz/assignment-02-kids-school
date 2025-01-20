@@ -1,0 +1,65 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* navbar design */
+  .logo{
+    width: 62px;
+    height: 62px;
+    /* margin: 20px 11px 0px 141px ; */
+  }
+  .school-title{
+    font-size: 2rem;
+    font-weight: 32px;
+    /* width: 30x; */
+    height: 30px;
+  }
+  .nav-links{
+    font-weight: 700;
+    font-size: 1.25rem;
+    list-style: none;
+    margin-right: 32px;
+    justify-items: center;
+  }
+  .navbar{
+    max-width: 1160px;
+    height: 62px;
+    margin: 20px 140px 0px 140px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+  .btn-primary{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+  }
+
+  /* nav title style */
+  .home{
+    color: rgba(254, 163, 1, 1);
+  }
+  .about{
+    color: rgba(1, 172, 253, 1);
+  }
+  .facilities{
+    color: rgba(5, 212, 223, 1);
+  }
+  .admit{
+    color: rgba(93, 88, 239, 1);
+  }
