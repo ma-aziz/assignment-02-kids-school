@@ -25,7 +25,9 @@
     font-size: 1.25rem;
     list-style: none;
     margin-right: 32px;
+    gap: 32px;
     justify-items: center;
+    display: flex;
   }
   .navbar{
     max-width: 1160px;
@@ -102,7 +104,44 @@
 .vison{
     color: rgba(1, 172, 253, 1);
 }
+#check{
+    display: none;
+}
   /* mobile device responsive */
-  @media screen  {
-    
+  @media screen and (max-width:776px) {
+    .nav-links,
+    .school-title,
+    .btn-primary,
+    .nav-item{
+        display: none;
+        /* display: block; */
+       
+    }
+    .nav-links{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar{
+        width: 358px;
+        height: 46px;
+        margin: 12px 16px 12px 16px;
+        flex-direction: column;
+        justify-content: center;
+        /* right: -100%; */
+    }
+    #check:checked, .nav-links{
+        display: flex;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    label span{
+        background-color: #000;
+        height: 4px;
+        width: 30px;
+        margin: 5px 0px;
+        transition: 0.4s;
+    }
   }
