@@ -180,6 +180,28 @@
   font-size: 0.994rem;
   color: rgba(135, 0, 255, 1);
 }
+.arrow-img{
+  margin-top: 80px;
+  margin-bottom: 60px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-left{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(254, 163, 1, 1);
+}
+.arrow-right{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(254, 163, 1, 1);
+}
   /* mobile device responsive */
   @media screen and (max-width:576px) {
    
