@@ -129,6 +129,8 @@
   gap: 28px;
   padding: 28px;
   margin: 80px 0px 80px 0px;
+  margin-left: 140px;
+  margin-right: 140px;
 }
 .cards-1, .cards-2, .cards-3{
   width: 367px;
@@ -146,6 +148,37 @@
 .cards-3{
   background-image: linear-gradient(rgba(242, 232, 255, 1),rgba(255, 255, 255, 1));
   border: 2px solid rgba(242, 232, 255, 1);
+}
+.cards-img-1, .cards-img-2, .cards-img-3{
+  width: 136px;
+  height: 136px;
+  padding-top: 52px;
+  padding-bottom: 20px;
+}
+.cards-title{
+  font-weight: 700px;
+  font-size: 1.5rem;
+  color: rgba(32, 32, 32, 1);
+}
+.cards-description{
+  font-weight: 500;
+  font-size: 0.994rem;
+  color: rgba(128, 128, 128, 1);
+}
+.read-more-1{
+  font-weight: 700;
+  font-size: 0.994rem;
+  color: rgba(100, 200, 255, 1);
+}
+.read-more-2{
+  font-weight: 700;
+  font-size: 0.994rem;
+  color: rgba(240, 170, 0, 1);
+}
+.read-more-3{
+  font-weight: 700;
+  font-size: 0.994rem;
+  color: rgba(135, 0, 255, 1);
 }
   /* mobile device responsive */
   @media screen and (max-width:576px) {
