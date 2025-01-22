@@ -437,6 +437,8 @@ height: 293px;
   padding-right: 228px;
   max-width: 1490;
   margin: 0 auto;
+  max-width: 1160px;
+  max-height: 630px;
   background-color: rgba(1, 172, 253, 1);
 }
 .footer-image-section{
